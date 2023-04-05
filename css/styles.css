@@ -4,12 +4,12 @@
     --focus-text:#404BBF;
     --text-button:#4D5AE5;
     --background-button:#E7E9FC;
-    --focus-button:#ffffff;
+    --focus-button:#FFFFFF;
     --footer-text:#F4F4FD;
 }
 
 body{
-    color:var(--title-text-color);
+    color:var(--text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
     font-size: 16px;
@@ -17,18 +17,22 @@ body{
     background-color: var(--focus-button);
 }
 
-.table-content-web{
-    color: var(--text-button);
+.table-web{
 font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--text-button);
     text-decoration: none;
 }
 
-.table-content-studio{
+.links{
+    text-decoration: none;
+}
+
+.table-studio{
 color: var(--title-text-color);
 }
 
@@ -38,7 +42,6 @@ color: var(--title-text-color);
 
 .menu-nav .link{
     font-weight: 500;
-    text-decoration: none;
 }
 
 .menu-nav .link:hover,
@@ -51,7 +54,6 @@ color: var(--title-text-color);
 }
 .adress-nav .contact{
     color: var(--text-color);
-    text-decoration: none;
 }
 
 .adress-nav .contact:hover,
@@ -87,7 +89,7 @@ font-weight: 500;
 .footer{
     background-color: var(--title-text-color);
 }
-.table-footer-studio{
+.footer-studio{
     color: var(--footer-text);
 }
 
