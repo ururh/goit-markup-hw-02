@@ -62,18 +62,21 @@ color: var(--title-text-color);
 }
 
 .button{
-background-color: var(--background-button);
+    font-weight: 500;
+    letter-spacing: 0.04em;
 color: var(--text-button);
+    background-color: var(--background-button);
 cursor:pointer;
 font-family: inherit;
-font-weight: 500;
-    letter-spacing: 0.04em;
+
+    
 }
 
 .button:hover,
 .button:focus{
-    background-color: var(--focus-text);
     color: var(--focus-button);
+    background-color: var(--focus-text);
+   
 }
 
 .section .product-title {
