@@ -97,6 +97,9 @@ color: var(--title-text-color);
 
 }
 
+.bg-cards{
+    background-color: var(--focus-button);
+}
 .work {
     font-weight: 500;
     font-size: 20px;
