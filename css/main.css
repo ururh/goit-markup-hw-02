@@ -66,6 +66,9 @@ color: var(--title-text-color);
     color: var(--focus-text);
 }
 
+.first-section{
+    background-color: var(--title-text-color);
+}
 .main-title{
     font-size: 56px;
     line-height: 1.07; 
@@ -81,7 +84,7 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.04em;
 color: var(--focus-button);
-cursor: pointer
+cursor: pointer;
 }
 
 .button:hover,
@@ -91,15 +94,36 @@ cursor: pointer
    
 }
 
-.section .product-title {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+.work{
+font-weight: 500; 
+font-size: 20px;
+line-height: 1.2; 
+letter-spacing: 0.02em;
+color:var(--title-text-color);
 }
 
-.section .content{
-    color:var(--text-color);   
+.article{
+font-size: 16px; 
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-color);
 }
+
+.app{
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;  
+        color: var(--title-text-color);
+}
+
+.bg-team{
+    background-color: var(--footer-text);
+}
+
 
 .footer{
     background-color: var(--title-text-color);
